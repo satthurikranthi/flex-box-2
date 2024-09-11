@@ -1,0 +1,39 @@
+.container {
+    background-color: aqua;
+    width: 1200px;
+    height: 98vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+
+.item{
+   width: 130px;
+    height: 130px;
+    font-size: 6rem;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    border: 2px solid blueviolet;
+}
+
+
+
+nav{
+    background-color: orchid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+a{
+    font-size: 2rem;
+}
